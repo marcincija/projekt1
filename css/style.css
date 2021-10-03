@@ -338,3 +338,14 @@ body {
 .notallowed {
   cursor: not-allowed;
 }
+
+#orangeball {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: #e07a64;
+  border-radius: 999px;
+  position: absolute;
+  margin-top: -199px;
+  margin-left: -199px;
+}
