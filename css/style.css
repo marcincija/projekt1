@@ -218,7 +218,7 @@ body {
 
 .main {
   margin: 0 auto;
-  width: 960px;
+  width: 90%;
 }
 
 .fullwidth {
@@ -348,4 +348,38 @@ body {
   position: absolute;
   margin-top: -199px;
   margin-left: -199px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #aboutus .container:nth-of-type(odd) {
+    flex-direction: column;
+  }
+
+  .paddingleft {
+    padding-left: 0;
+  }
+
+  .paddingright {
+    padding-right: 0;
+  }
+
+  .alignright {
+    text-align: left;
+  }
+
+  .half {
+    width: auto;
+  }
+
+  .boxcenter {
+    margin: 20px 63px 20px 63px;
+  }
+
+  .boxpadding {
+    padding-bottom: 20px;
+  }
 }
