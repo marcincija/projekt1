@@ -382,10 +382,28 @@ body {
   .boxpadding {
     padding-bottom: 20px;
   }
+
+  #aboutus img {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .social {
+    padding: 10px;
+  }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1045px) {
   .main {
     width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  #navcontainer li {
+    padding-left: 26px;
   }
 }
