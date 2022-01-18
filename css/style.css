@@ -218,7 +218,7 @@ body {
 
 .main {
   margin: 0 auto;
-  width: 90%;
+  width: 1024px;
 }
 
 .fullwidth {
@@ -381,5 +381,11 @@ body {
 
   .boxpadding {
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    width: 90%;
   }
 }
