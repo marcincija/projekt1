@@ -389,6 +389,7 @@ body {
 
   .footer {
     flex-direction: column;
+    height: auto;
   }
 
   .social {
@@ -408,7 +409,7 @@ body {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   #navcontainer li {
     padding-left: 16px;
   }
