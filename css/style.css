@@ -351,10 +351,25 @@ body {
 }
 
 @media (max-width: 768px) {
+  .box:hover {
+    transform: none;
+    cursor: auto;
+    transition-duration: none;
+  }
+
+  #maintext button:hover {
+    background: transparent;
+    color: #fff;
+    transition: none;
+    transition-duration: none;
+  }
+
   .container {
     flex-direction: column;
   }
-
+  .menu {
+    display: none;
+  }
   #aboutus .container:nth-of-type(odd) {
     flex-direction: column;
   }
@@ -390,27 +405,16 @@ body {
   .footer {
     flex-direction: column;
     height: auto;
+    padding-top: 20px;
   }
 
   .social {
-    padding: 10px;
+    padding: 20px;
   }
 }
 
 @media (max-width: 1045px) {
   .main {
     width: 90%;
-  }
-}
-
-@media (max-width: 450px) {
-  #navcontainer li {
-    padding-left: 26px;
-  }
-}
-
-@media (max-width: 380px) {
-  #navcontainer li {
-    padding-left: 16px;
   }
 }
